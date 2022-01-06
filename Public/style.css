@@ -1,0 +1,49 @@
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+#app {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Social svg {
+  transition: transform 0.5s;
+}
+
+.Social svg:hover {
+  transform: scale(1.1, 1.1);
+  transform-origin: -1 -1;
+}
+
+header {
+  display: flex;
+  position: relative;
+  flex-direction: 1;
+  flex-wrap: wrap;
+}
+
+header ul,
+header ul li {
+  display: flex;
+  margin: 6px;
+}
+
+header .social-Links {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+}

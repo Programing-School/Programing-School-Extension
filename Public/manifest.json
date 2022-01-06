@@ -1,0 +1,9 @@
+{
+  "name": "Programing-School",
+  "description": "Hello, Hello, My channel's extension",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programing-School/Programing-School-Extension.git"
+  },
+  "author": "Programing-School"
+}
