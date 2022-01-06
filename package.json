@@ -1,6 +1,6 @@
 {
-  "name": "programing-school-extension",
-  "version": "0.0.0",
+  "name": "programing-school",
+  "version": "5.5.5",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,5 +9,37 @@
   },
   "devDependencies": {
     "vite": "^2.7.2"
-  }
+  },
+  "description": "Hello, My extension channel",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild-windows-64": "^0.13.15",
+    "esbuild": "^0.13.15",
+    "has": "^1.0.3",
+    "function-bind": "^1.1.1",
+    "picocolors": "^1.0.0",
+    "path-parse": "^1.0.7",
+    "is-core-module": "^2.8.0",
+    "nanoid": "^3.1.30",
+    "resolve": "^1.21.0",
+    "supports-preserve-symlinks-flag": "^1.0.0",
+    "source-map-js": "^1.0.1",
+    "rollup": "^2.63.0",
+    "postcss": "^8.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programing-School/Programing-School-Extension.git"
+  },
+  "keywords": [
+    "npm",
+    "run",
+    "index"
+  ],
+  "author": "Programing-School",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Programing-School/Programing-School-Extension/issues"
+  },
+  "homepage": "https://github.com/Programing-School/Programing-School-Extension#readme"
 }
