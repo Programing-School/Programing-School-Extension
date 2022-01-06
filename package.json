@@ -1,0 +1,13 @@
+{
+  "name": "programing-school-extension",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "dist": "npm run build"
+  },
+  "devDependencies": {
+    "vite": "^2.7.2"
+  }
+}
