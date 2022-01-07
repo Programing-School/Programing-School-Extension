@@ -1,9 +1,14 @@
 {
-  "name": "Programing-School",
-  "description": "Hello, Hello, My channel's extension",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Programing-School/Programing-School-Extension.git"
+  "Programing-School": "1.0 beta",
+  "manifest_version": "3",
+  "description": "Small Extension for learn All Programing Languages",
+  "permissions": ["storage"],
+  "browser_action": {
+    "default_icon": "",
+    "default_title": "Programing-School",
+    "default_popup": "./index.html"
   },
-  "author": "Programing-School"
+  "icons": {
+    "128": ""
+  }
 }

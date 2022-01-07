@@ -24,8 +24,10 @@ const AboutMe = {
   GithubProfile: SocialLinks.Github
 };
 
-const All_doc = {
-  Youtube: document.querySelector("#Youtube"),
-};
+// const All_doc = {
+//   Youtube: document.querySelector("#Youtube")
+// };
 
-export {AboutMe, SocialLinks, };
+module.exports = {AboutMe: AboutMe, SocialLinks: SocialLinks}
+
+// export {AboutMe, SocialLinks};
